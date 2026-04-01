@@ -1,0 +1,168 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "C:/pokemon-go-colorscripts_0.3.1_windows_amd64/pokemon.exe -r --no-name",
+    "padding": {
+      "top": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " ",
+    "key": {
+      "width": 4
+    }
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#F5C2E7",
+        "at": "#CDD6F4",
+        "host": "#89DCEB"
+      }
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Hardware──────────────────────┐"
+    },
+    {
+      "type": "host",
+      "key": " PC",
+      "keyColor": "#A6E3A1"
+    },
+    {
+      "type": "cpu",
+      "key": "│ ├",
+      "keyColor": "#F5C2E7",
+      "temp": true
+    },
+    {
+      "type": "gpu",
+      "key": "│ ├󰍛",
+      "keyColor": "#FAB387",
+      "temp": true,
+      "format": "{2} ({3})"
+    },
+    {
+      "type": "memory",
+      "key": "│ ├",
+      "keyColor": "#A6E3A1",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "disk",
+      "key": "└ └",
+      "keyColor": "#94E2D5"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌──────────────────────Software──────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": " OS",
+      "keyColor": "#89DCEB"
+    },
+    {
+      "type": "kernel",
+      "key": "│ ├",
+      "keyColor": "#89DCEB"
+    },
+    {
+      "type": "bios",
+      "key": "│ ├",
+      "keyColor": "#89DCEB"
+    },
+    {
+      "type": "packages",
+      "key": "│ ├󰏖",
+      "keyColor": "#89DCEB"
+    },
+    {
+      "type": "shell",
+      "key": "└ └",
+      "keyColor": "#89DCEB"
+    },
+    "break",
+    {
+      "type": "board",
+      "key": " DE",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "de",
+      "key": "│ ├",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "lm",
+      "key": "│ ├",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "wm",
+      "key": "│ ├",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "wmtheme",
+      "key": "│ ├󰉼",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "terminal",
+      "key": "└ └",
+      "keyColor": "#F5C2E7"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "custom",
+      "format": "\u001b[90m┌────────────────────Uptime / Age / DT────────────────────┐"
+    },
+    {
+      "type": "command",
+      "key": "  OS Age ",
+      "keyColor": "#FAB387",
+      "text": "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days"
+    },
+    {
+      "type": "uptime",
+      "key": "  Uptime ",
+      "keyColor": "#F5C2E7",
+      "format": "{1}h {2}m"
+    },
+    {
+      "type": "datetime",
+      "key": "  DateTime ",
+      "keyColor": "#89DCEB"
+    },
+    {
+      "type": "battery",
+      "key": "  Battery ",
+      "keyColor": "#A6E3A1",
+      "format": "{4} {5}"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[90m└─────────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    }
+  ]
+}
