@@ -45,7 +45,18 @@
 
 ---
 
-## 📸 Screenshots
+## Video
+
+<div align="center">
+
+[![Watch the showcase](https://img.shields.io/badge/YouTube-Watch%20Showcase-grey?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/results?search_query=ash+windows+11+rice+showcase)
+
+
+</div>
+
+---
+
+## Screenshots
 
 <div align="center">
 
@@ -61,7 +72,7 @@
 
 ---
 
-## 🧰 Software Stack
+## Software Stack
 
 | Category | Tool |
 |---|---|
@@ -82,7 +93,7 @@
 
 ---
 
-## 🔤 Fonts
+## Fonts
 
 Install these before setting anything up — icons and prompt glyphs depend on them.
 
@@ -93,17 +104,17 @@ After downloading, right-click the `.ttf` files → **Install for all users**.
 
 ---
 
-## ⚙️ Installation
+## Installation
 
-> [!WARNING]
 > **Back up your existing configs before copying anything.** All destination paths point to live config locations. If you already use any of these tools, manually merge rather than overwrite.
 
-> [!NOTE]
 > Each section shows: `repo folder` → `where to put it on your system`
 
 ---
 
 ### GlazeWM *(Alternative Tiling WM)*
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=glazewm+windows+tiling+setup+tutorial)
 
 Install: [github.com/glzr-io/glazewm/releases](https://github.com/glzr-io/glazewm/releases)
 
@@ -117,6 +128,8 @@ To autostart, create a shortcut to `glazewm.exe` and place it in `shell:startup`
 
 ### YASB *(Status Bar)*
 
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=yasb+windows+status+bar+setup+tutorial)
+
 Install: [github.com/amnweb/yasb/releases](https://github.com/amnweb/yasb/releases)
 
 ```
@@ -124,7 +137,6 @@ YASB/config.yaml  →  %USERPROFILE%\.config\yasb\config.yaml
 YASB/styles.css   →  %USERPROFILE%\.config\yasb\styles.css
 ```
 
-> [!NOTE]
 > Requires a Nerd Font for icons to render correctly.
 
 Restart YASB after copying. To autostart, place a shortcut to `yasb.exe` in `shell:startup`.
@@ -132,6 +144,8 @@ Restart YASB after copying. To autostart, place a shortcut to `yasb.exe` in `she
 ---
 
 ### Komorebi + WHKD
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://youtube.com/@LGUG2Z)
 
 Install Komorebi: [github.com/LGUG2Z/komorebi/releases](https://github.com/LGUG2Z/komorebi/releases)
 
@@ -152,6 +166,8 @@ komorebic start --whkd
 
 ### Zebar *(Alternative Status Bar)*
 
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=zebar+glazewm+status+bar+setup)
+
 Zebar is installed alongside GlazeWM. Config goes in:
 
 ```
@@ -161,6 +177,8 @@ Zebar/  →  %USERPROFILE%\.glzr\zebar\
 ---
 
 ### Oh My Posh + PowerShell
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=oh+my+posh+windows+terminal+setup+tutorial)
 
 Install Oh My Posh:
 ```powershell
@@ -177,12 +195,13 @@ To find your profile path:
 echo $PROFILE
 ```
 
-> [!NOTE]
 > The profile already contains the `oh-my-posh init` line pointing to the theme file. Make sure the path in `$PROFILE` matches where you placed the `.omp.json`.
 
 ---
 
 ### fastfetch
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=fastfetch+windows+setup+tutorial)
 
 Install:
 ```powershell
@@ -199,7 +218,8 @@ Run with `fastfetch` in your terminal.
 
 ### Cava *(Audio Visualizer)*
 
-> [!NOTE]
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=cava+audio+visualizer+wsl+windows+setup)
+
 > Cava on Windows requires a build for Windows (e.g. via WSL or a community Windows port). The config here was made for the WSL version.
 
 ```
@@ -209,6 +229,8 @@ Cava/config  →  ~/.config/cava/config  (inside WSL)
 ---
 
 ### Spicetify
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/watch?v=54y5ZNHIjJw)
 
 Install:
 ```powershell
@@ -225,12 +247,13 @@ Copy the theme folder into `Themes/` and the config into the root of the spiceti
 spicetify backup apply
 ```
 
-> [!WARNING]
 > After a Spotify update you'll need to re-run `spicetify apply`.
 
 ---
 
 ### BetterDiscord
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=betterdiscord+setup+install+tutorial)
 
 Install BetterDiscord from [betterdiscord.app](https://betterdiscord.app/).
 
@@ -241,12 +264,13 @@ BetterDiscord/plugins/  →  %AppData%\BetterDiscord\plugins\
 
 Then enable them in Discord → Settings → BetterDiscord → Themes / Plugins.
 
-> [!NOTE]
 > Some plugins from the marketplace need to be downloaded separately — any that aren't included here are listed in the folder's README or comments.
 
 ---
 
 ### Rainmeter + JaxCore
+
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=rainmeter+jaxcore+setup+tutorial+beginners)
 
 Install Rainmeter: [rainmeter.net](https://www.rainmeter.net/)
 
@@ -266,6 +290,8 @@ Right-click the Rainmeter tray icon → **Refresh All** after copying skins.
 
 ### Lively Wallpaper
 
+[![Tutorial](https://img.shields.io/badge/YouTube-Tutorial-grey?style=flat-square&logo=youtube)](https://www.youtube.com/results?search_query=lively+wallpaper+windows+setup+tutorial)
+
 Install: [github.com/rocksdanister/lively/releases](https://github.com/rocksdanister/lively/releases)
 
 ```
@@ -276,7 +302,7 @@ The included wallpaper is packaged as a `.lwp` file (just drag & drop it into Li
 
 ---
 
-## 📁 Repo Structure
+## Repo Structure
 
 ```
 Win11-Rice-Ash/
@@ -296,7 +322,7 @@ Win11-Rice-Ash/
 ```
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - [r/unixporn](https://reddit.com/r/unixporn)
 - [Spicetify](https://spicetify.app/) and [BetterDiscord](https://betterdiscord.app/) communities
