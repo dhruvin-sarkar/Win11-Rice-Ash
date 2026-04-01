@@ -1,0 +1,482 @@
+* {
+	font-size: 14px;
+	color: #ffffffb2;
+	font-weight: 600;
+	font-family: "Segoe UI", "JetBrainsMono NFP";
+	margin: 0;
+	padding: 0;
+}
+
+.yasb-bar {
+	padding: 0 8px;
+	margin: 0;
+	background-color: rgba(152, 152, 161, 0.25);
+}
+
+.widget {
+	padding: 0 8px;
+	margin: 0;
+}
+
+.widget .label {
+	padding: 0px 2px 2px 2px;
+}
+
+.widget .label.alt {
+	padding: 1px 8px 1px 8px;
+}
+
+.komorebi-workspaces,
+.komorebi-active-layout {
+	margin: 0;
+	padding: 0;
+}
+
+.komorebi-workspaces .ws-btn {
+	font-size: 16px;
+	background-color: transparent;
+	margin: 0 4px 0 4px;
+	color: #95a0ad;
+}
+
+.komorebi-workspaces .ws-btn.populated {
+	color: #5f6163;
+}
+
+.komorebi-workspaces .ws-btn:hover,
+.komorebi-workspaces .ws-btn.populated:hover,
+.komorebi-workspaces .ws-btn.active {
+	color: #757b81;
+}
+
+.apps-widget {
+	padding: 0 4px;
+}
+
+.apps-widget .widget-container {
+	background-color: rgba(133, 118, 118, 0.1);
+	margin: 5px 0 4px 0;
+	border-radius: 13px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.apps-widget .label {
+	font-size: 14px;
+	padding: 0px 2px 1px 2px;
+}
+
+.apps-widget .label:hover {
+	color: #fff;
+}
+
+.active-window-widget .icon {
+	padding: 0 0 0 0;
+}
+
+/*POWER MENU WIDGET*/
+.uptime {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #ffffff;
+	font-weight: 600;
+	font-family: "Segoe UI";
+}
+
+.power-menu-widget .label {
+	color: #f38ba8;
+	font-size: 13px;
+}
+
+.power-menu-popup {
+	background-color: rgba(24, 24, 37, 0.9);
+	border-radius: 12px;
+	border: 4px solid rgb(41, 42, 58);
+}
+
+.power-menu-popup .button {
+	padding: 0;
+	width: 240px;
+	height: 120px;
+	border-radius: 8px;
+	background-color: rgb(41, 42, 58);
+	font-family: "Segoe UI";
+	color: white;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	margin: 8px;
+}
+
+.power-menu-popup .button.hover {
+	background-color: rgb(55, 56, 75);
+	border: 1px solid rgb(55, 56, 75);
+}
+
+.power-menu-popup .button .label {
+	margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	color: rgba(255, 255, 255, 0.95);
+	font-family: "Segoe UI";
+}
+
+.power-menu-popup .button .icon {
+	font-size: 48px;
+	padding-top: 8px;
+	color: rgba(255, 255, 255, 0.25);
+}
+
+.power-menu-popup .button.cancel .icon {
+	color: rgba(243, 139, 168, 0.55);
+}
+
+.power-menu-popup .button.cancel .label {
+	color: rgba(243, 139, 168, 0.95);
+}
+
+.power-menu-popup .button.shutdown .icon {
+	color: rgba(137, 180, 250, 0.55);
+}
+
+.power-menu-popup .button.shutdown .label {
+	color: rgba(137, 180, 250, 0.95);
+}
+
+/* ICONS */
+.icon {
+	font-size: 16px;
+}
+
+.volume-widget .icon {
+	color: #89b4fa;
+	margin: 1px 2px 0 0;
+}
+
+/* WEATHER WIDGET */
+.weather-widget .icon {
+	font-size: 16px;
+	margin: 0 2px 1px 0;
+}
+
+.weather-widget .icon.sunnyDay {
+	color: rgb(221, 210, 107);
+}
+
+.weather-widget .icon.clearNight {
+	color: rgb(107, 189, 221);
+	font-size: 22px;
+	margin: 1px 2px 0px 0;
+}
+
+/* MEDIA WIDGET */
+.media-widget {
+	padding: 0;
+	padding-left: 2px;
+	margin: 0;
+	border-radius: 16px;
+	margin-right: 8px;
+}
+
+.media-widget .label {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.media-widget .btn {
+	color: #acb2c9;
+	padding: 0 3px;
+	margin: 4px 0;
+	font-weight: 500;
+	font-family: Segoe Fluent Icons;
+}
+
+.media-widget .btn:hover {
+	color: #ffffff;
+}
+
+.media-widget .btn.play {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 14px;
+	font-size: 16px;
+}
+
+.media-widget .btn.disabled:hover,
+.media-widget .btn.disabled {
+	color: #7d8297;
+	font-size: 12px;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+/* TASBAR WIDGET */
+.taskbar-widget {
+	padding: 0;
+	margin: 0;
+}
+
+.taskbar-widget .app-container {
+	padding: 0 6px;
+}
+
+.taskbar-widget .app-container .app-title {
+	padding-left: 4px;
+}
+
+.win-button-widget .label {
+	font-size: 18px;
+}
+
+.github-widget {}
+
+.github-widget .widget-container {}
+
+.github-widget .widget-container .label {}
+
+/* Popup menu*/
+.github-menu {}
+
+.github-menu .header {}
+
+.github-menu .footer {}
+
+.github-menu .footer .label {}
+
+.github-menu .contents {}
+
+/* Scrollable area containing all notification sections */
+.github-menu .contents .section {}
+
+/* Container for notification items, wraps all items when categories disabled, or each category group when enabled */
+.github-menu .contents .section-header {}
+
+/* Category title (e.g., "Issues", "Pull Requests"). Only visible when show_categories is enabled */
+.github-menu .contents .item {}
+
+/* Individual notification card */
+.github-menu .contents .item.first {}
+
+/* First item in section or list */
+.github-menu .contents .item.last {}
+
+/* Last item in section or list */
+.github-menu .contents .item.new {}
+
+/* Style for unread notification card */
+.github-menu .contents .item .title {}
+
+/* Title text of notification card */
+.github-menu .contents .item .description {}
+
+/* Description text of notification card */
+.github-menu .contents .item .icon {}
+
+/* Default style for icon */
+.github-menu .contents .item .icon.issue {}
+
+/* Issue icon */
+.github-menu .contents .item .icon.issue.closed {}
+
+.github-menu .contents .item .icon.issue.open {}
+
+.github-menu .contents .item .icon.pullrequest {}
+
+/* Pull request icon */
+.github-menu .contents .item .icon.pullrequest.open {}
+
+.github-menu .contents .item .icon.pullrequest.closed {}
+
+.github-menu .contents .item .icon.pullrequest.merged {}
+
+.github-menu .contents .item .icon.pullrequest.draft {}
+
+.github-menu .contents .item .icon.release {}
+
+/* Release icon */
+.github-menu .contents .item .icon.discussion {}
+
+/* Discussion icon */
+.github-menu .contents .item .icon.discussion.answered {}
+
+.github-menu .contents .item .icon.checksuite {}
+
+/* Check suite icon */
+.github-menu .contents .item .comment-count {}
+
+/* Comment label text */
+.github-menu .contents .item .comment-icon {}
+
+/* Comment icon */
+
+.github-menu {
+	background-color: rgba(113, 113, 119, 0.2);
+	max-height: 500px;
+	min-height: 500px;
+	min-width: 420px;
+}
+
+.github-menu .header {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	font-size: 15px;
+	font-weight: 400;
+	font-family: 'Segoe UI';
+	padding: 8px;
+	color: rgb(141, 139, 139);
+	background-color: rgba(17, 17, 27, 0.75);
+}
+
+.github-menu .footer {
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	padding: 4px 8px 6px 8px;
+	background-color: rgba(17, 17, 27, 0.75);
+}
+
+.github-menu .footer .label {
+	font-size: 12px;
+	font-family: 'Segoe UI';
+	color: #97989c;
+}
+
+.github-menu .contents {
+	background-color: rgba(58, 58, 73, 0.2);
+}
+
+.github-menu .contents .item {
+	min-height: 40px;
+	padding: 6px 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.github-menu .contents .item:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.github-menu .contents .item .title,
+.github-menu .contents .item .description {
+	color: #9399b2;
+	font-family: Segoe UI;
+}
+
+.github-menu .contents .item .title {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.github-menu .contents .item .description {
+	font-size: 12px;
+	font-weight: 500
+}
+
+.github-menu .contents .item.new .title,
+.github-menu .contents .item.new .description {
+	color: #ffffff
+}
+
+.github-menu .contents .item .icon {
+	font-size: 16px;
+	padding-right: 0;
+	padding-left: 8px;
+	padding-right: 4px;
+	color: #9399b2;
+}
+
+.github-menu .contents .item.new .icon {
+	color: #2e4932;
+}
+
+
+.battery-widget {}
+
+.battery-widget .widget-container {}
+
+.battery-widget .widget-container .label {}
+
+.battery-widget .widget-container .label.alt {}
+
+.battery-widget .widget-container .icon {}
+
+/* Status classes */
+.battery-widget .widget-container .label.status-critical {}
+
+.battery-widget .widget-container .label.status-low {}
+
+.battery-widget .widget-container .label.status-medium {}
+
+.battery-widget .widget-container .label.status-high {}
+
+.battery-widget .widget-container .label.status-full {}
+
+.battery-widget .widget-container .label.status-charging {}
+
+.battery-widget .widget-container .icon.status-critical {}
+
+.battery-widget .widget-container .icon.status-low {}
+
+.battery-widget .widget-container .icon.status-medium {}
+
+.battery-widget .widget-container .icon.status-high {}
+
+.battery-widget .widget-container .icon.status-full {}
+
+.battery-widget .widget-container .icon.status-charging {}
+
+.battery-widget .widget-container .icon.status-charging.blink {}
+
+.battery-widget {
+	padding: 0 8px;
+}
+
+.battery-widget .label {
+	font-size: 13px;
+	color: #e0e0e0;
+}
+
+.battery-widget .icon {
+	font-size: 14px;
+	margin-right: 6px;
+}
+
+/* Critical - red */
+.battery-widget .icon.status-critical {
+	color: #ff4444;
+}
+
+.battery-widget .label.status-critical {
+	color: #ff6b6b;
+}
+
+/* Low - orange */
+.battery-widget .icon.status-low {
+	color: #ff9800;
+}
+
+.battery-widget .label.status-low {
+	color: #ffb74d;
+}
+
+/* Medium - yellow */
+.battery-widget .icon.status-medium {
+	color: #ffc107;
+}
+
+/* High - light green */
+.battery-widget .icon.status-high {
+	color: #8bc34a;
+}
+
+/* Full - green */
+.battery-widget .icon.status-full {
+	color: #4caf50;
+}
+
+/* Charging - cyan */
+.battery-widget .icon.status-charging {
+	color: #00bcd4;
+}
+
+.battery-widget .label.status-charging {
+	color: #4dd0e1;
+}
+
+.cava-widget {
+	padding: 0;
+	margin: 0;
+}
+
+.cava-widget .widget-container {}
