@@ -1,0 +1,250 @@
+{
+  "name": "Pure Fade",
+  "version": "1.1.0",
+  "author": "arg0NNY",
+  "description": "A collection of transparency switch animations from BetterAnimations with a true fade transition — eliminating the slight flicker of the background at the cost of lacking support for transparent Discord themes.",
+  "invite": "M8DBtcZjXD",
+  "authorLink": "https://github.com/arg0NNY/BetterAnimationsPacks",
+  "donate": "https://boosty.to/arg0nny/donate",
+
+  "snippets": [
+    {
+      "key": "opacity",
+      "value": {
+        "inject": "type",
+        "enter": 1,
+        "exit": 0
+      }
+    },
+    {
+      "key": "directionalTranslate",
+      "params": {
+        "value": 5,
+        "negativeValue": -5
+      },
+      "value": {
+        "inject": "vector",
+        "values": {
+          "inject": "type",
+          "enter": {
+            "inject": "direction",
+            "upwards": { "y": [{ "inject": "snippet.params", "name": "value" }, 0] },
+            "downwards": { "y": [{ "inject": "snippet.params", "name": "negativeValue" }, 0] },
+            "leftwards": { "x": [{ "inject": "snippet.params", "name": "value" }, 0] },
+            "rightwards": { "x": [{ "inject": "snippet.params", "name": "negativeValue" }, 0] }
+          },
+          "exit": {
+            "inject": "direction",
+            "upwards": { "y": { "inject": "snippet.params", "name": "negativeValue" } },
+            "downwards": { "y": { "inject": "snippet.params", "name": "value" } },
+            "leftwards": { "x": { "inject": "snippet.params", "name": "negativeValue" } },
+            "rightwards": { "x": { "inject": "snippet.params", "name": "value" } }
+          }
+        }
+      }
+    },
+    {
+      "key": "layersBackgroundFix",
+      "value": {
+        "inject": "if",
+        "value": {
+          "a": { "inject": "module" },
+          "inject": "===",
+          "b": "layers"
+        },
+        "then": {
+          "css": {
+            "{element}": {
+              "background-color": "var(--background-base-lowest) !important"
+            }
+          }
+        },
+        "else": null
+      }
+    }
+  ],
+
+  "animations": [
+
+    {
+      "key": "fade",
+      "name": "Fade",
+      "modules": "switch",
+      "settings": {
+        "duration": true,
+        "easing": true,
+
+        "defaults": {
+          "duration": 400,
+          "easing": {
+            "type": "ease",
+            "style": "quart"
+          }
+        }
+      },
+      "animate": {
+        "extends": { "inject": "snippet", "key": "layersBackgroundFix" },
+        "anime": {
+          "type": "waapi",
+          "targets": { "inject": "element" },
+          "parameters": {
+            "duration": { "inject": "duration" },
+            "ease": { "inject": "easing" },
+            "opacity": {
+              "inject": "snippet",
+              "key": "opacity"
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "key": "slip",
+      "name": "Slip",
+      "modules": "switch",
+      "settings": {
+        "duration": true,
+        "easing": true,
+        "direction": true,
+
+        "defaults": {
+          "duration": 200,
+          "easing": {
+            "type": "ease",
+            "style": "quart"
+          },
+          "direction": "upwards"
+        }
+      },
+      "animate": {
+        "extends": { "inject": "snippet", "key": "layersBackgroundFix" },
+        "anime": {
+          "type": "waapi",
+          "targets": { "inject": "element" },
+          "parameters": {
+            "duration": { "inject": "duration" },
+            "ease": { "inject": "easing" },
+            "opacity": {
+              "inject": "snippet",
+              "key": "opacity"
+            },
+            "translate": {
+              "inject": "snippet",
+              "key": "directionalTranslate",
+              "params": {
+                "value": 5,
+                "negativeValue": -5
+              }
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "key": "scale",
+      "name": "Scale",
+      "modules": "switch",
+      "settings": {
+        "duration": true,
+        "easing": true,
+        "position": true,
+        "direction": ["forwards", "backwards"],
+
+        "defaults": {
+          "duration": 200,
+          "easing": {
+            "type": "ease",
+            "style": "cubic"
+          },
+          "position": "center",
+          "direction": "backwards"
+        }
+      },
+      "animate": {
+        "extends": { "inject": "snippet", "key": "layersBackgroundFix" },
+        "css": {
+          "{element}": {
+            "transform-origin": { "inject": "position" }
+          }
+        },
+        "anime": {
+          "type": "waapi",
+          "targets": { "inject": "element" },
+          "parameters": {
+            "duration": { "inject": "duration" },
+            "ease": { "inject": "easing" },
+            "opacity": {
+              "inject": "snippet",
+              "key": "opacity"
+            },
+            "scale": {
+              "inject": "type",
+              "enter": {
+                "inject": "isIntersected",
+                "true": 1,
+                "false": [
+                  {
+                    "inject": "direction",
+                    "forwards": 1.1,
+                    "backwards": 0.9
+                  },
+                  1
+                ]
+              },
+              "exit": {
+                "inject": "direction",
+                "forwards": 0.9,
+                "backwards": 1.1
+              }
+            }
+          }
+        }
+      }
+    },
+
+    {
+      "key": "blur",
+      "name": "Blur",
+      "modules": "switch",
+      "settings": {
+        "duration": true,
+        "easing": true,
+
+        "defaults": {
+          "duration": 400,
+          "easing": {
+            "type": "ease",
+            "style": "quart"
+          }
+        }
+      },
+      "animate": {
+        "extends": { "inject": "snippet", "key": "layersBackgroundFix" },
+        "anime": {
+          "type": "waapi",
+          "targets": { "inject": "element" },
+          "parameters": {
+            "duration": { "inject": "duration" },
+            "ease": { "inject": "easing" },
+            "opacity": {
+              "inject": "snippet",
+              "key": "opacity"
+            },
+            "filter": {
+              "inject": "type",
+              "enter": {
+                "inject": "isIntersected",
+                "true": "blur(0)",
+                "false": ["blur(12px)", "blur(0)"]
+              },
+              "exit": "blur(12px)"
+            }
+          }
+        }
+      }
+    }
+
+  ]
+}

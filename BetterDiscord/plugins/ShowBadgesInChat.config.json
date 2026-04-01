@@ -1,0 +1,399 @@
+{
+	"all": {
+		"badgeCache": {
+			"1009131261421432996": {
+				"badges": [
+					{
+						"id": "legacy_username",
+						"description": "Originally known as Ahmet Babagil#4948",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					}
+				],
+				"date": 1773301644771
+			},
+			"1124954058491433073": {
+				"badges": [
+					{
+						"id": "hypesquad_house_3",
+						"description": "HypeSquad Balance",
+						"icon": "3aa41de486fa12454c3761e8e223442e"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1773301684795
+			},
+			"1283075578085245030": {
+				"badges": [],
+				"date": 1773301680467
+			},
+			"1289357215613980674": {
+				"badges": [
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					},
+					{
+						"id": "orb_profile_badge",
+						"description": "Collected the Orb Profile Badge",
+						"icon": "83d8a1eb09a8d64e59233eec5d4d5c2d"
+					}
+				],
+				"date": 1773301683433
+			},
+			"1339518119227560058": {
+				"badges": [
+					{
+						"id": "bot_commands",
+						"description": "Supports Commands",
+						"icon": "6f9e37f9029ff57aef81db857890005e",
+						"link": "https://discord.com/blog/welcome-to-the-new-era-of-discord-apps?ref=badge"
+					}
+				],
+				"date": 1773301722179
+			},
+			"1387075572680626327": {
+				"badges": [],
+				"date": 1773301723569
+			},
+			"1396451248097460305": {
+				"badges": [
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1771851073530
+			},
+			"204255221017214977": {
+				"badges": [
+					{
+						"id": "bot_commands",
+						"description": "Supports Commands",
+						"icon": "6f9e37f9029ff57aef81db857890005e",
+						"link": "https://discord.com/blog/welcome-to-the-new-era-of-discord-apps?ref=badge"
+					}
+				],
+				"date": 1773301678988
+			},
+			"426537812993638400": {
+				"badges": [
+					{
+						"id": "bot_commands",
+						"description": "Supports Commands",
+						"icon": "6f9e37f9029ff57aef81db857890005e",
+						"link": "https://discord.com/blog/welcome-to-the-new-era-of-discord-apps?ref=badge"
+					}
+				],
+				"date": 1773301719364
+			},
+			"429457053791158281": {
+				"badges": [
+					{
+						"id": "bot_commands",
+						"description": "Supports Commands",
+						"icon": "6f9e37f9029ff57aef81db857890005e",
+						"link": "https://discord.com/blog/welcome-to-the-new-era-of-discord-apps?ref=badge"
+					},
+					{
+						"id": "automod",
+						"description": "Uses AutoMod",
+						"icon": "f2459b691ac7453ed6039bbcfaccbfcd"
+					}
+				],
+				"date": 1771851079379
+			},
+			"445990095129018379": {
+				"badges": [],
+				"date": 1773301643367
+			},
+			"476709713229119492": {
+				"date": 1771850913864
+			},
+			"596293027627270155": {
+				"badges": [
+					{
+						"id": "hypesquad_house_2",
+						"description": "HypeSquad Brilliance",
+						"icon": "011940fd013da3f7fb926e4a1cd2e618"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as Captaincool6333#3765",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1771851081832
+			},
+			"643945264868098049": {
+				"badges": [
+					{
+						"id": "staff",
+						"description": "Discord Staff",
+						"icon": "5e74e9b61934fc1f67c65515d1f7e60d",
+						"link": "https://discord.com/company"
+					}
+				],
+				"date": 1771851222098
+			},
+			"653533411981525003": {
+				"badges": [
+					{
+						"id": "hypesquad_house_3",
+						"description": "HypeSquad Balance",
+						"icon": "3aa41de486fa12454c3761e8e223442e"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as 愛　早坂#6006",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1771851080284
+			},
+			"703886990948565003": {
+				"badges": [
+					{
+						"id": "bot_commands",
+						"description": "Supports Commands",
+						"icon": "6f9e37f9029ff57aef81db857890005e",
+						"link": "https://discord.com/blog/welcome-to-the-new-era-of-discord-apps?ref=badge"
+					}
+				],
+				"date": 1773301725134
+			},
+			"723218230218588181": {
+				"badges": [
+					{
+						"id": "hypesquad_house_1",
+						"description": "HypeSquad Bravery",
+						"icon": "8a88d63823d8a71cd5e390baa45efa02"
+					}
+				],
+				"date": 1773301641907
+			},
+			"725786232696602656": {
+				"badges": [
+					{
+						"id": "legacy_username",
+						"description": "Originally known as EiskalteFanta#2726",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1771851074999
+			},
+			"753541075435782214": {
+				"badges": [
+					{
+						"id": "legacy_username",
+						"description": "Originally known as DVRJ#8374",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					}
+				],
+				"date": 1773301682002
+			},
+			"761462335134236672": {
+				"badges": [
+					{
+						"id": "legacy_username",
+						"description": "Originally known as corneatman da クラックヘッド#2399",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1773301677489
+			},
+			"798090962583945237": {
+				"badges": [],
+				"date": 1771851078914
+			},
+			"801657368332599346": {
+				"badges": [
+					{
+						"id": "hypesquad_house_2",
+						"description": "HypeSquad Brilliance",
+						"icon": "011940fd013da3f7fb926e4a1cd2e618"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as Scuffed_Entity#6599",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					}
+				],
+				"date": 1773301717897
+			},
+			"847792559401336854": {
+				"badges": [
+					{
+						"id": "hypesquad_house_2",
+						"description": "HypeSquad Brilliance",
+						"icon": "011940fd013da3f7fb926e4a1cd2e618"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as prism#5273",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1773301635334
+			},
+			"852235084454690898": {
+				"badges": [
+					{
+						"id": "premium_tenure_36_month_v2",
+						"description": "Earned Jun 11, 2021. 3 years: Emerald",
+						"icon": "11e2d339068b55d3a506cff34d3780f3",
+						"link": "https://discord.com/settings/premium"
+					},
+					{
+						"id": "hypesquad_house_1",
+						"description": "HypeSquad Bravery",
+						"icon": "8a88d63823d8a71cd5e390baa45efa02"
+					},
+					{
+						"id": "guild_booster_lvl6",
+						"description": "Server boosting since Dec 30, 2024",
+						"icon": "991c9f39ee33d7537d9f408c3e53141e",
+						"link": "https://discord.com/settings/premium"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as tosy#0001",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					},
+					{
+						"id": "orb_profile_badge",
+						"description": "Collected the Orb Profile Badge",
+						"icon": "83d8a1eb09a8d64e59233eec5d4d5c2d"
+					}
+				],
+				"date": 1771850926611
+			},
+			"855554301890658344": {
+				"badges": [
+					{
+						"id": "legacy_username",
+						"description": "Originally known as arkitekt#4841",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					}
+				],
+				"date": 1773301686236
+			},
+			"860006729688154113": {
+				"badges": [
+					{
+						"id": "hypesquad_house_1",
+						"description": "HypeSquad Bravery",
+						"icon": "8a88d63823d8a71cd5e390baa45efa02"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as Official_Otaku#5063",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					},
+					{
+						"id": "orb_profile_badge",
+						"description": "Collected the Orb Profile Badge",
+						"icon": "83d8a1eb09a8d64e59233eec5d4d5c2d"
+					}
+				],
+				"date": 1772113431032
+			},
+			"864060863907889162": {
+				"badges": [
+					{
+						"id": "hypesquad_house_3",
+						"description": "HypeSquad Balance",
+						"icon": "3aa41de486fa12454c3761e8e223442e"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as jesus christ#0816",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					}
+				],
+				"date": 1773301676132
+			},
+			"882113816043851797": {
+				"badges": [
+					{
+						"id": "hypesquad_house_3",
+						"description": "HypeSquad Balance",
+						"icon": "3aa41de486fa12454c3761e8e223442e"
+					},
+					{
+						"id": "legacy_username",
+						"description": "Originally known as Shreyas ;)#1054",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					}
+				],
+				"date": 1773301720806
+			},
+			"980181090050396212": {
+				"badges": [
+					{
+						"id": "legacy_username",
+						"description": "Originally known as marco28#3971",
+						"icon": "6de6d34650760ba5551a79732e98ed60"
+					},
+					{
+						"id": "quest_completed",
+						"description": "Completed a Quest",
+						"icon": "7d9ae358c8c5e118768335dbe68b4fb8",
+						"link": "https://discord.com/discovery/quests"
+					}
+				],
+				"date": 1771851081153
+			}
+		}
+	}
+}

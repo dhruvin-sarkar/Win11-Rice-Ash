@@ -1,0 +1,13 @@
+{
+	"all": {
+		"general": {
+			"addQuickToggle": false
+		},
+		"places": {
+			"normal": true,
+			"edit": true,
+			"form": true,
+			"user_profile": true
+		}
+	}
+}
